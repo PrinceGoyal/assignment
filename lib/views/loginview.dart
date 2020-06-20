@@ -57,7 +57,7 @@ class LoginView extends StatelessWidget {
                     obscureText: true,
                     maxLength: 4,
                     style: GoogleFonts.rubik(fontSize: 16.0,color: black),
-                    keyboardType: TextInputType.number,
+                    keybgit addoardType: TextInputType.number,
                     decoration: InputDecoration( counterText: "",labelText: ConstantsString.login_year_lable),
                     validator: (input) =>
                         input.length < 4 ? ConstantsString.login_error_title : null,
