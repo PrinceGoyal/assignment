@@ -57,10 +57,10 @@ class LoginView extends StatelessWidget {
                     obscureText: true,
                     maxLength: 4,
                     style: GoogleFonts.rubik(fontSize: 16.0,color: black),
-                    keybgit addoardType: TextInputType.number,
+                    keyboardType: TextInputType.number,
                     decoration: InputDecoration( counterText: "",labelText: ConstantsString.login_year_lable),
                     validator: (input) =>
-                        input.length < 4 ? ConstantsString.login_error_title : null,
+                        input.length < 4 ? ConstantsString.login_error_year : null,
                     onSaved: (input) => model.password = input,
                   ),
                   SizedBox(
